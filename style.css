@@ -1,0 +1,144 @@
+/* .cards {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 15px;
+}
+.cards li {
+  height: 230px;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+}
+.note p {
+  font-size: 25px;
+  font-weight: 600;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.note .details {
+  max-height: 165px;
+  overflow-y: auto;
+}
+
+.note .details::-webkit-scrollbar {
+  display: none;
+}
+.note span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #575757;
+  font-size: 16px;
+}
+
+.note .bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: max-content;
+  overflow: hidden;
+}
+
+.bottom-content span {
+  font-weight: 500;
+  color: teal;
+}
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.settings i {
+  font-size: 20px;
+  cursor: pointer;
+}
+ */
+
+ .cards {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 15px;
+  }
+  .cards li {
+    height: 240px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+    
+  
+  }
+  .note p {
+    font-size: 20px;
+    font-weight: 800;
+    /* text-overflow: ellipsis; */
+    overflow-x: hidden;
+    word-break: break-all;
+
+  }
+  
+
+  .note .details {
+    max-height: 165px;
+    overflow-y: auto;
+    
+  }
+  
+  .note .details::-webkit-scrollbar {
+    display: none;
+  }
+  .note span {
+    word-break: break-all;
+    display: inline-block;
+    margin-top: 10px;
+    color: #575757;
+    font-size: 16px;
+    
+  }
+  
+  .note .bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+  }
+  
+  .note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    overflow: hidden;
+  }
+  
+  .bottom-content span {
+    font-weight: 500;
+    color: teal;
+  }
+  .settings {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .settings  {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .delete-btn:hover  {
+    color: red;
+  }
+  
